@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Submission4MadeAziz</string>
+    <string name = "title_movies"> Film </string>
+    <string name = "title_tv_show"> Acara Tv </string>
+    <string name = "description"> Deskripsi </string>
+    <string name = "release_date"> Tanggal Rilis </string>
+    <string name = "rating"> Skor Pengguna: </string>
+    <string name = "image_movies"> Film Gambar </string>
+    <string name = "detail"> Detail </string>
+    <string name = "favorit">Tambahkan ke Favorit</string>
+    <string name="unfavorit">Hapus di Favorit</string>
+    <string name = "share"> Bagikan </string>
+    <string name = "rate"> Nilai </string>
+    <string name = "popularity"> Popularitas : </string>
+    <string name = "vote_count"> Penghitungan Suara : </string>
+    <string name = "languange"> Bahasa : </string>
+    <string name = "overview"> Ikhtisar </string>
+    <string name = "language"> id-ID </string>
+    <string name="succes">sukses</string>
+    <string name="failed">gagal</string>
+
+    <string name = "change_language_settings"> Ubah Pengaturan Bahasa </string>
+    <string name="title_favorit">Favorit</string>
+</resources>

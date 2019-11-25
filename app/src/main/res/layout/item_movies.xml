@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_movies"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/image_movies"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_rating_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@id/img_movies"
+            android:text="@string/rating"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/tv_rating_movies"
+            android:text="@string/title_movies"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_release_date_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title_movies"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/tv_rating_movies"
+            android:text="@string/release_date"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_description_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_release_date_movies"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/img_movies"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/description"
+            android:textSize="12sp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_detail_movies"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_below="@id/tv_description_movies"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/img_movies"
+            android:background="#00CBFF"
+            android:text="@string/detail"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

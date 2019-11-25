@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Submission4MadeAziz</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_tv_show">Tv Show</string>
+    <string name="description">Description</string>
+    <string name="release_date">Release Date </string>
+    <string name="rating">User Score :</string>
+    <string name="image_movies">Image Movies</string>
+    <string name="detail">Detail</string>
+    <string name="favorit">Add to Favorites</string>
+    <string name="unfavorit">Remove in Favorites</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="popularity">Popularity : </string>
+    <string name="vote_count">Vote Count : </string>
+    <string name="languange">Languange : </string>
+    <string name="overview">Overview</string>
+    <string name="language">en-US</string>
+    <string name="succes">succes</string>
+    <string name="failed">failed</string>
+
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="title_favorit">Favorit</string>
+
+
+</resources>
